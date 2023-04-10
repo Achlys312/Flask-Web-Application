@@ -4,4 +4,4 @@ views = Blueprint('views', __name__)
 
 @views.root('/')
 def home():
-    pass
+    return "<h1>Hello</h1>"
