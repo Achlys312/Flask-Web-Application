@@ -1,9 +1,9 @@
-{% extends 'base.html' %} {% block title %}Login{% endblock %} {% block content
-%} {% if boolean == True %}
+{% extends "base.html" %} {% block title %}Login{% endblock %} {% block content
+%}
 <form method="POST">
   <h3 align="center">Login</h3>
   <div class="form-group">
-    <label for="email">Email Adress</label>
+    <label for="email">Email Address</label>
     <input
       type="email"
       class="form-control"
@@ -19,10 +19,10 @@
       class="form-control"
       id="password"
       name="password"
-      placeholder="Enter Password"
+      placeholder="Enter password"
     />
   </div>
   <br />
   <button type="submit" class="btn btn-primary">Login</button>
 </form>
-{%endif%} {% endblock %}
+{% endblock %}
