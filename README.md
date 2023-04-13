@@ -1,4 +1,5 @@
-A Test website i made while learning flask. It has database and authentication
+A Test website i made while learning flask. It contains database and authentication.
+This website is a reminder site or a simple todo webapp 
 
 ## Setup & Installation
 
